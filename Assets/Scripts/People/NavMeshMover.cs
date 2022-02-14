@@ -12,8 +12,8 @@ public class NavMeshMover : MonoBehaviour
     public void Move()
     {
         if (_naveMeshAgent.enabled == true)
-        {
-            _naveMeshAgent.destination = _movePosition.position;
-        }
+    {
+        _naveMeshAgent.destination = _movePosition.position;
     }
+}
 }
