@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SumPeople : MonoBehaviour
+public class People : MonoBehaviour
 {
     [SerializeField] private PartyRoom _partyRoom;
 
